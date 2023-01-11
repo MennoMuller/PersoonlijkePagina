@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      header {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: white;
+        background-color: blueviolet;
+      }
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 80;
+      }
+      h1 {
+        font-size: 100px;
+      }
+      .label {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        display: inline-block;
+        border-radius: 12px;
+        padding: 5px;
+      }
+      .header1 {
+        background-color: #40916c;
+      }
+      .header2 {
+        background-image: url("sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: lightblue;
+      }
+      .header3 {
+        /* background: linear-gradient(to right, #99e2b4, #143601, #036666); */
+        background: radial-gradient(#99e2b4, transparent 40%);
+        color: #036666;
+        background-attachment: fixed;
+      }
+      .header3 .label {
+        background-color: #036666;
+      }
+    </style>
+    <link rel="stylesheet" href="fonts.css" />
+  </head>
+  <body>
+    <header class="header1">
+      <div class="container">
+        <div class="label">Discover</div>
+        <h1>Mystic forest <br />in the north of Wales</h1>
+      </div>
+    </header>
+    <header class="header2">
+      <div class="container">
+        <div class="label">Discover</div>
+        <h1>Mystic forest <br />in the north of Wales</h1>
+      </div>
+    </header>
+    <header class="header3">
+      <div class="container">
+        <div class="label">Discover</div>
+        <h1>Mystic forest <br />in the north of Wales</h1>
+      </div>
+    </header>
+  </body>
+</html>

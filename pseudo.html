@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo</title>
+    <style>
+      a {
+        display: block;
+        padding: 20px;
+        color: purple;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: blueviolet;
+        text-decoration: underline;
+      }
+
+      a:visited {
+        color: hotpink;
+      }
+
+      a:active {
+        color: red;
+      }
+      .card {
+        background-color: blueviolet;
+        width: 200px;
+        height: 320px;
+        border-radius: 24px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: all 0.2s ease-in-out;
+      }
+      a:hover .card {
+        box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+        scale: 1.02;
+      }
+      a:visited .card {
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="awesometext.html">Home</a></li>
+          <li><a href="background.html">Over ons</a></li>
+          <li><a href="media.html">Diensten</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="awesometext.html">
+        <div class="card"></div>
+      </a>
+    </main>
+  </body>
+</html>

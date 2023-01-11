@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open-Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: blueviolet;
+}
+p {
+  text-align: justify;
+}
+section {
+  padding: 100px 0;
+}
+.container {
+  width: min(1000px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 10px;
+}
+.heading1 {
+  font-size: 6em;
+  line-height: 1.04;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 40px;
+  background-image: url(https://media2.giphy.com/media/30pjsLvNyaRY0eoE0b/giphy.gif);
+  background-clip: text;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 2s ease-in-out;
+}
+.heading1:hover {
+  transform: rotate(360deg);
+}
+
+.heading2 {
+  color: red;
+  font-size: 4rem;
+  text-shadow: 2px 2px black;
+}
+
+.fontpair-wrapper {
+  padding: 100px 120px;
+  min-height: 100vh;
+}
+
+.pair1 {
+  background-image: url(gogh.jpeg);
+  background-size: cover;
+}
+.pair1 h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 10rem;
+  font-weight: 800;
+  line-height: 0.8;
+  color: white;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.pair1 h2 i {
+  font-family: "Dancing Script", sans-serif;
+}
+
+.pair1 h2 .brand-color {
+  color: #ffd700;
+}
+.pair1 p {
+  font-size: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 400px;
+  margin-left: auto;
+  color: white;
+  text-shadow: 1px 1px 0 black;
+}
